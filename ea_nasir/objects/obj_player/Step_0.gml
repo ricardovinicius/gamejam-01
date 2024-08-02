@@ -12,10 +12,10 @@ var pressed_down = keyboard_check(vk_down);
 //if(pressed_down) y = y + move_speed;
 
 var x_direction = pressed_right - pressed_left;
-x = x + (x_direction * move_speed);
 
 var y_direction = pressed_down - pressed_up;
-y = y + (y_direction * move_speed);
+
+move_and_collide(x_direction * move_speed, y_direction * move_speed, collision_objects)
 
 if (x_direction == -1)		set_animation("left");
 else if (x_direction == 1)	set_animation("right");

@@ -17,4 +17,8 @@ animations = {
 	down:	{ frames: [1, 2, 3] },
 }
 
+collision_objects = [
+	obj_inv_wall,
+]
+
 set_animation("idling");
