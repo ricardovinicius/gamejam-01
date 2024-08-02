@@ -1,19 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_warp",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_guard",
+  "eventList":[],
   "managed":true,
-  "name":"obj_warp",
+  "name":"obj_guard",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -31,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_warp_transition",
-    "path":"sprites/spr_warp_transition/spr_warp_transition.yy",
+    "name":"spr_guard",
+    "path":"sprites/spr_guard/spr_guard.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
