@@ -1,13 +1,7 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
 var pressed_left = keyboard_check(vk_left);
 var pressed_right = keyboard_check(vk_right);
 var pressed_up = keyboard_check(vk_up);
 var pressed_down = keyboard_check(vk_down);
-
-//current_direction = "";
-
 
 //if(pressed_left) x = x - move_speed;
 //if(pressed_right) x = x + move_speed;
@@ -61,12 +55,12 @@ if (npc != noone && point_distance(x, y, npc.x, npc.y) < 32) {
     // Verificar se o jogador apertou o botão 'E'
     if (keyboard_check_pressed(ord("E"))) {
         // Ativar o diálogo
-        global.dialogue_text = "Olá, eu sou um NPC!";
+        global.dialogue_text = "Oi, eu sou um NPC!";
         instance_create_layer(0, 0, "Instances", obj_dialogue);
     }
 	
-	if (keyboard_check_pressed(ord("E"))) {
+	/*if (keyboard_check_pressed(ord("E"))) {
     // Destruir o objeto de diálogo
 		instance_destroy();
-	}
+	}*/
 }

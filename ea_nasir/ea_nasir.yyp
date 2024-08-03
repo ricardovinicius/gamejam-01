@@ -46,6 +46,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"sBox","path":"sprites/sBox/sBox.yy",},},
+    {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
     {"id":{"name":"spr_desert_ts","path":"sprites/spr_desert_ts/spr_desert_ts.yy",},},
     {"id":{"name":"spr_guard","path":"sprites/spr_guard/spr_guard.yy",},},
     {"id":{"name":"spr_inv_wall","path":"sprites/spr_inv_wall/spr_inv_wall.yy",},},
