@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_guard",
+  "%Name":"obj_quest_mark",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_guard",
+  "name":"obj_quest_mark",
   "overriddenProperties":[],
   "parent":{
-    "name":"characters",
-    "path":"folders/Objetos/characters.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_guard",
-    "path":"sprites/spr_guard/spr_guard.yy",
+    "name":"spr_quest",
+    "path":"sprites/spr_quest/spr_quest.yy",
   },
   "spriteMaskId":null,
   "visible":true,

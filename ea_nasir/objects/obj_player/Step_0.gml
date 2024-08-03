@@ -56,7 +56,7 @@ var npc = instance_nearest(x, y, obj_guard);
 
 if (npc != noone && point_distance(x, y, npc.x, npc.y) < 32) {
     // Mostrar uma dica para apertar o botão
-    draw_text(x, y - 32, "Pressione 'E' para falar");
+    draw_text(obj_guard.x, obj_guard.y, "Pressione 'E' para falar");
 
     // Verificar se o jogador apertou o botão 'E'
     if (keyboard_check_pressed(ord("E"))) {
@@ -67,6 +67,6 @@ if (npc != noone && point_distance(x, y, npc.x, npc.y) < 32) {
 	
 	if (keyboard_check_pressed(ord("E"))) {
     // Destruir o objeto de diálogo
-		instance_destroy();
+		// instance_destroy();
 	}
 }

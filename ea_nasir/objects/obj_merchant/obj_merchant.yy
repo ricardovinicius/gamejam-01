@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_guard",
+  "%Name":"obj_merchant",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_guard",
+  "name":"obj_merchant",
   "overriddenProperties":[],
   "parent":{
     "name":"characters",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_guard",
-    "path":"sprites/spr_guard/spr_guard.yy",
+    "name":"spr_merchant",
+    "path":"sprites/spr_merchant/spr_merchant.yy",
   },
   "spriteMaskId":null,
   "visible":true,
