@@ -1,13 +1,12 @@
 // Desenhar uma caixa de diálogo
 
-draw_sprite_stretched(sBox, 0, 75, 120, 245, 60);
+//draw_sprite_stretched(sBox, 0, 75, 120, 245, 60);
+
+draw_sprite(spr_box, 0, 38, 130);
 
 draw_set_font(m3x6);
 draw_set_color(c_white);
-//draw_rectangle(10, 10, 150, 50, false);
-draw_set_color(c_white);
-draw_text(60, 30, global.dialogue_text);
-
+draw_text(43, 135, global.dialogue_text);
 
 /*
 draw_set_font(fnM3x6);

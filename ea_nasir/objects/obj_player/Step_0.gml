@@ -61,8 +61,18 @@ if (npc != noone && point_distance(x, y, npc.x, npc.y) < 32) {
     // Verificar se o jogador apertou o botão 'E'
     if (keyboard_check_pressed(ord("E"))) {
         // Ativar o diálogo
-        global.dialogue_text = "Olá, eu sou um NPC!";
-        instance_create_layer(0, 0, "Instances", obj_dialogue);
+        global.dialogue_text = "Ei rapa! Daqui tu nao passa";
+		
+		
+        instance_create_layer(38, 130, "Instances", obj_dialogue);
+		instance_create_layer(0, 0, "Instances", obj_dialogue);
+		instance_create_layer(0, 0, "Instances", obj_dialogue);
+		instance_create_layer(0, 0, "Instances", obj_dialogue);
+		instance_create_layer(0, 0, "Instances", obj_dialogue);
+		
+		
+		instance_place(0, 0, obj_dialogue);
+		
     }
 	
 	if (keyboard_check_pressed(ord("E"))) {

@@ -21,6 +21,10 @@ animations = {
 collision_objects = [
 	obj_inv_wall,
 	obj_guard,
+	obj_merchant,
+	obj_market_tent,
+	obj_house_sm,
+	obj_houser_md,
 ]
 
 set_animation("idlingDown");
